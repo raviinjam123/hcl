@@ -4,7 +4,7 @@ node
     
     stage('Code Checkout')
     {
-        git credentialsId: '756d09a6-141a-483c-bbfb-f83ca5592da1', url: 'https://github.com/raviinjam123/hcl.git'
+        git credentialsId: '756d09a6-141a-483c-bbfb-f83ca5592da1', url: 'https://github.com/raviinjam/hcl.git'
     }
     
     stage('build')
