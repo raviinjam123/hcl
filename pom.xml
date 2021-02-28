@@ -16,6 +16,11 @@
     </dependency>
   </dependencies>
   <build>
+   <properties>
+        <sonar.host.url>http://35.154.16.111:9000/</sonar.host.url>
+         <sonar.login>admin</sonar.login>
+       <sonar.password>admin</sonar.password> 
+   </properties>
     <plugins>
       <plugin>
         <!-- Build an executable JAR -->
@@ -33,10 +38,6 @@
         </configuration>
       </plugin>
     </plugins>
-      <properties>
-		       <sonar.host.url>http://35.154.16.111:9000/</sonar.host.url>
-           <sonar.login>admin</sonar.login>
-		      <sonar.password>admin</sonar.password> 
-	  </properties>
+     
   </build>
 </project>
